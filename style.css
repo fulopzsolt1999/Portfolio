@@ -1,4 +1,15 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+/* 
+   vörös: #FF4136
+   piros: #FA7470
+   fekete: #111111
+   kék: #729BFB
+   zöld: #2E8B57
+*/
+
+/* ##### Window, Body ##### */
 
 * {
    margin: 0;
@@ -7,16 +18,124 @@
 }
 
 body {
-   font-family: "Noto Serif", serif;
-   /* background: linear-gradient(to bottom, #001017, #015171, #001017); */
+   font-family: "Roboto", sans-serif;
+   font-size: 18px;
+   line-height: 1.6;
+   background-color: #f5f5f5;
+   color: #111111;
 }
 
-#me {
-   width: 20rem;
-   text-align: center;
+/* ##### Navbar ##### */
+
+#navbar {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   height: 4rem;
+   background-color: #111111;
+   color: #fa7470;
 }
 
-nav h1,
-nav h6 {
-   color: hsl(0, 0%, 100%);
+#navbar p {
+   display: flex;
+   align-items: center;
+   margin-left: 2rem;
+   margin-bottom: 0;
+}
+
+#navbar #nav-menu-list {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 0;
+   margin-right: 2rem;
+   width: 25rem;
+   list-style: none;
+}
+
+#navbar #nav-menu-list li a {
+   padding: 1rem;
+   border-radius: 10px;
+   color: #fa7470;
+   transition: all ease 1s;
+}
+
+#navbar #nav-menu-list li a:hover {
+   background-color: #fa7470;
+   color: #111111;
+}
+
+/* Style the hamburger menu */
+#navbar #hamburger {
+   display: none;
+}
+
+#navbar a.icon {
+   background: black;
+   display: block;
+   position: absolute;
+   right: 0;
+   top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+#navbar a:hover {
+   background-color: #ddd;
+   color: black;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+   background-color: #04aa6d;
+   color: white;
+}
+
+@media (max-width: 768px) {
+   #navbar #nav-menu-list {
+      display: none;
+   }
+   #navbar #hamburger {
+      display: block;
+   }
+}
+
+h1 {
+   font-family: "Montserrat", sans-serif;
+   font-size: 48px;
+   line-height: 1.2;
+   color: #111111;
+}
+
+h2 {
+   font-family: "Montserrat", sans-serif;
+   font-size: 36px;
+   line-height: 1.2;
+   color: #111111;
+}
+
+/* Példá#nav-menu-list egy gomb */
+button {
+   font-family: "Roboto", sans-serif;
+   font-size: 16px;
+   padding: 10px 20px;
+   background-color: #007bff;
+   color: white;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+}
+button:hover {
+   background-color: #0056b3;
+}
+
+/* Linkek */
+a {
+   font-family: "Roboto", sans-serif;
+   font-size: 16px;
+   color: #007bff;
+   text-decoration: none;
+}
+a:hover {
+   text-decoration: underline;
+   color: #0056b3;
 }

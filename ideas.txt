@@ -1,0 +1,93 @@
+Színpaletta
+
+A kedvenc színeid és a zöld öltönyöd alapján az alábbi színpalettát javaslom:
+
+    Kék (#007BFF) - Ez a szín jól mutat a linkeknél, gomboknál és kiemeléseknél.
+    Vörös (#FF4136) - Ezt használhatod figyelemfelkeltő elemeknél, például hibajelzéseknél vagy fontos információknál.
+    Fekete (#111111) - Az alapvető szövegekhez és a háttérhez egyaránt kiváló.
+    Sötétzöld (#2E8B57) - Ez a szín kiegészíti az öltönyödet és használható különböző háttérelemekhez vagy kártyákhoz.
+
+Betűtípusok
+
+Ajánlok két betűtípust, egy a címekhez és egy a szövegtörzshöz:
+
+    Címekhez: Montserrat vagy Poppins - Modern és letisztult.
+    Szövegtörzshöz: Roboto vagy Open Sans - Könnyen olvasható, barátságos.
+
+Képek
+
+    Portréfotó: A főoldalra helyezd el a sötétzöld öltönyös képedet, amely közvetlenül rád irányítja a figyelmet.
+    Projektek: Minden projekthez használj nagyfelbontású képeket, lehetőleg élénk színekkel, hogy kiemelkedjenek.
+    Háttérképek: Használj minimalista, alacsony kontrasztú háttérképeket vagy egyszerű mintákat, hogy ne vonják el a figyelmet a tartalomról.
+
+Ikonok
+
+    Technológiai ikonok: Használj ismerős ikonokat mint például HTML, CSS, JavaScript, React stb.
+    Szekció ikonok: Egyértelmű, letisztult ikonokat használj az egyes szekciókhoz (pl. Kapcsolat, Projektek, Rólam).
+    Közösségi média ikonok: Az elérhetőségeidnél legyenek jól látható, színes ikonok.
+
+Példa
+
+Egy példa színséma:
+
+    Háttér: #F5F5F5 (világos szürke)
+    Navigációs sáv: #111111 (fekete)
+    Linkek és gombok: #007BFF (kék)
+    Kiemelések: #FF4136 (vörös)
+    Kártyák/Panelek: #2E8B57 (sötétzöld)
+
+    
+Kék (#007BFF) és Fekete (#111111):
+   A kék szín világosabb, és kiemelkedik a fekete háttérrel szemben. Ez jó választás linkekhez és gombokhoz, ahol fontos, hogy az elemek feltűnőek legyenek.
+
+Vörös (#FF4136) és Fekete (#111111):
+   A vörös szín intenzív és figyelemfelkeltő, ami jól kontrasztál a fekete háttérrel. Használhatod figyelmeztető jelzéseknél vagy fontos részleteknél.
+
+Sötétzöld (#2E8B57) és Fekete (#111111):
+   A sötétzöld szín elegáns és harmonikus választás a feketével. Ez a kombináció különösen jól mutat kártyákon vagy szekciókban, ahol a zöld öltönyötök képe is visszaköszön.
+
+Kék (#007BFF) és Sötétzöld (#2E8B57):
+   A kék és sötétzöld színek egymás mellett friss és modern hatást keltenek. Ez a kombináció különösen jó lehet különböző szekciók elkülönítésére.
+
+Vörös (#FF4136) és Sötétzöld (#2E8B57):
+   Ez a kombináció merész, de hatékony lehet, ha mértékkel használod. Például kiemelhetsz vele bizonyos elemeket vagy hívószavakat.
+
+Kék (#007BFF) és Vörös (#FF4136):
+   Ez a párosítás dinamikus és energikus, de vigyázz, nehogy túl sokat használj belőlük egyszerre, mivel mindkét szín nagyon intenzív.
+
+
+Címek (H1-H6):
+   H1: 36-48px (kiemelkedő főcím)
+   H2: 30-36px
+   H3: 24-30px
+   H4: 20-24px
+   H5: 16-20px
+   H6: 14-16px
+
+Szövegtörzs (Body text): 16-18px (ez az alapértelmezett szövegméret, amely kényelmes olvasást biztosít)
+
+Alcímek és egyéb kiemelések: 18-20px
+
+Egyéb szövegek
+
+    Navigációs menü: 16-18px (fontos, hogy könnyen olvasható legyen)
+    Gombok: 14-16px (a gombok szövege legyen rövid és jól olvasható)
+    Kis megjegyzések, lábjegyzetek: 12-14px (használd mértékkel)
+
+Sortáv és betűköz
+
+    Sortáv (Line height): 1.5-1.6 (tisztább olvashatóság érdekében)
+    Betűköz (Letter spacing): 0.5-1px (segíthet, hogy az olvasás könnyedebb legyen)
+
+További tippek
+
+    Szövegszín:
+        Alapvető szöveg: #111111 (fekete)
+        Linkek: #007BFF (kék)
+        Kiemelések: #FF4136 (vörös)
+
+    Háttérszín: Világos háttér (#F5F5F5) a jobb olvashatóság érdekében.
+
+    Margók és párnázások (Margins and Padding):
+        Margók: Legalább 20-30px a fő szekciók között
+        Párnázások: 10-20px a belső elemek körül (gombok, kártyák)

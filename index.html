@@ -8,55 +8,31 @@
          rel="stylesheet"
          integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
          crossorigin="anonymous" />
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
       <link rel="stylesheet" href="style.css" />
       <title>Fülöp Zsolt - Portfolio</title>
    </head>
    <body>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-         <div class="container-fluid">
-            <div class="navbar-brand" id="me">
-               <h1>Fülöp Zsolt</h1>
-               <h6>
-                  Junior Frontend Developer <br />
-                  <span>&</span> <br />
-                  Webdeveloper
-               </h6>
-            </div>
-            <button
-               class="navbar-toggler"
-               type="button"
-               data-bs-toggle="collapse"
-               data-bs-target="#navbarScroll"
-               aria-controls="navbarScroll"
-               aria-expanded="false"
-               aria-label="Toggle navigation">
-               <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarScroll">
-               <ul
-                  class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
-                  style="--bs-scroll-height: 100px">
-                  <li class="nav-item">
-                     <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link" href="#about">About</a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link" href="#">Projects</a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link" href="#">Contact</a>
-                  </li>
-               </ul>
-            </div>
+      <nav id="navbar">
+         <p>Junior Frontend Developer</p>
+         <ul class="p-0" id="nav-menu-list">
+            <li><a href="#about-section">About me</a></li>
+            <li><a href="#projects-section">Projects</a></li>
+            <li><a href="#contact-section">Contact</a></li>
+         </ul>
+         <div id="hamburger">
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+               <i class="fa fa-bars"></i>
+            </a>
          </div>
       </nav>
       <div class="container">
          <section id="home"></section>
-         <section id="about"></section>
-         <section id="projects"></section>
-         <section id="contact"></section>
+         <section id="about-section"></section>
+         <section id="projects-section"></section>
+         <section id="contact-section"></section>
       </div>
 
       <!-- <section id="about-section">
