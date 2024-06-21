@@ -28,32 +28,7 @@ Ikonok
 
 Példa
 
-Egy példa színséma:
 
-    Háttér: #F5F5F5 (világos szürke)
-    Navigációs sáv: #111111 (fekete)
-    Linkek és gombok: #007BFF (kék)
-    Kiemelések: #FF4136 (vörös)
-    Kártyák/Panelek: #2E8B57 (sötétzöld)
-
-    
-Kék (#007BFF) és Fekete (#111111):
-   A kék szín világosabb, és kiemelkedik a fekete háttérrel szemben. Ez jó választás linkekhez és gombokhoz, ahol fontos, hogy az elemek feltűnőek legyenek.
-
-Vörös (#FF4136) és Fekete (#111111):
-   A vörös szín intenzív és figyelemfelkeltő, ami jól kontrasztál a fekete háttérrel. Használhatod figyelmeztető jelzéseknél vagy fontos részleteknél.
-
-Sötétzöld (#2E8B57) és Fekete (#111111):
-   A sötétzöld szín elegáns és harmonikus választás a feketével. Ez a kombináció különösen jól mutat kártyákon vagy szekciókban, ahol a zöld öltönyötök képe is visszaköszön.
-
-Kék (#007BFF) és Sötétzöld (#2E8B57):
-   A kék és sötétzöld színek egymás mellett friss és modern hatást keltenek. Ez a kombináció különösen jó lehet különböző szekciók elkülönítésére.
-
-Vörös (#FF4136) és Sötétzöld (#2E8B57):
-   Ez a kombináció merész, de hatékony lehet, ha mértékkel használod. Például kiemelhetsz vele bizonyos elemeket vagy hívószavakat.
-
-Kék (#007BFF) és Vörös (#FF4136):
-   Ez a párosítás dinamikus és energikus, de vigyázz, nehogy túl sokat használj belőlük egyszerre, mivel mindkét szín nagyon intenzív.
 
 
 Címek (H1-H6):
@@ -79,15 +54,104 @@ Sortáv és betűköz
     Sortáv (Line height): 1.5-1.6 (tisztább olvashatóság érdekében)
     Betűköz (Letter spacing): 0.5-1px (segíthet, hogy az olvasás könnyedebb legyen)
 
-További tippek
-
-    Szövegszín:
-        Alapvető szöveg: #111111 (fekete)
-        Linkek: #007BFF (kék)
-        Kiemelések: #FF4136 (vörös)
-
-    Háttérszín: Világos háttér (#F5F5F5) a jobb olvashatóság érdekében.
 
     Margók és párnázások (Margins and Padding):
         Margók: Legalább 20-30px a fő szekciók között
         Párnázások: 10-20px a belső elemek körül (gombok, kártyák)
+
+
+Színpaletta
+
+    Fő szín: #003366 (Deep Blue)
+    Komplementer szín: #FF6600 (Orange) - Ez a szín jól kontrasztál a mélykékkel, és kiválóan használható kiemelésekhez.
+    Szövegszín: #FFFFFF (White) - Világos szöveg a sötét háttér előtt.
+    Blokkok színe: #E6E6E6 (Light Grey) - Különböző szekciók hátteréhez.
+    Navigációs menü: #002244 (Navy Blue) - Egy árnyalattal sötétebb, mint a fő szín, hogy megkülönböztethető legyen, de ne domináljon túlzottan.
+    Háttérszín: #F5F5F5 (Light Grey) - Világos, semleges háttérszín, amely jól kiegészíti a mélykéket.
+
+Színátmenetes színezés (Gradients)
+
+A színátmenetek (gradients) nagyszerűen használhatók modern és dinamikus hatás eléréséhez. Az alábbiakban néhány javaslat, hogy hol és hogyan használhatod őket:
+
+    Hero szekció: A főoldal tetején található nagy kép vagy szekció hátteréhez használhatsz egy színátmenetes hátteret, például:
+        Linear gradient: background: linear-gradient(135deg, #003366, #002244);
+
+    Gombok: A gombok kiemelésére használhatod a színátmenetet:
+        background: linear-gradient(90deg, #003366, #0055a5);
+
+    Kiemelések: Kiemelheted az fontos információkat vagy szekciókat:
+        background: linear-gradient(90deg, #FF6600, #FF9900);
+
+Példa színek és használatuk
+
+    Fő szín (Deep Blue - #003366):
+        Navigációs menü, főcímek, lábléc
+
+    Komplementer szín (Orange - #FF6600):
+        Gombok, linkek, figyelemfelkeltő elemek
+
+    Szövegszín (White - #FFFFFF):
+        Szövegek a sötét háttér előtt (pl. navigációs menü, lábléc)
+
+    Blokkok színe (Light Grey - #E6E6E6):
+        Szekciók háttere, kártyák, panelek
+
+    Háttérszín (Light Grey - #F5F5F5):
+        Az egész oldal alap háttere
+
+
+
+
+            Komplementer szín:
+        A mély kék szín komplementer színe a narancs. Használhatsz élénk narancs árnyalatokat (például #FFA500) kiemelésekhez, gombokhoz vagy figyelemfelkeltő elemekhez.
+
+    Szöveg színe:
+        Szövegekhez a fehér (#FFFFFF) vagy világos szürke (#CCCCCC) jól működhet, mert kontrasztos a mély kék háttérrel, így könnyen olvasható lesz. Alternatívaként használhatsz világosabb kék árnyalatokat is kisebb hangsúlyozásokhoz (például #ADD8E6).
+
+    Blokkok színe:
+        A fehér (#FFFFFF) blokkok szép kontrasztot adnak egy mély kék szín mellett. Ezen kívül használhatsz világos szürke (#F0F0F0) blokkokat is, ha egy kicsit visszafogottabb megjelenést szeretnél.
+
+    Navigációs menü színe:
+        A navigációs menü esetén a fehér (#FFFFFF) vagy világos szürke (#D3D3D3) szöveg jól mutathat egy mély kék háttéren. Ha fordítva szeretnéd (világos háttér, sötét szöveg), akkor egy világosabb kék árnyalatú háttért (#E6E6FA) és mély kék szöveget alkalmazhatsz.
+
+    Háttér szín:
+        A háttér színének lehet egy nagyon világos kék árnyalatot választani (#F0F8FF) vagy egyszerű fehéret (#FFFFFF). Így a mély kék kiemelkedik és nem terheli túl a látványt.
+
+    Gradients, színátmenet:
+        A színátmeneteket használhatod a hero szakaszban, gombokban, vagy akár a láblécben is. Például egy mély kék (#001F3F) és egy világosabb kék (#00BFFF) átmenet jól nézhet ki. Ugyanígy játszhatsz a narancssárga és kék kombinációval is átmenetekben, ha kontrasztosabb hatást szeretnél elérni.
+
+Egy példa színpaletta, amit használhatnál:
+
+    Mély kék (#001F3F) – fő szín
+    Narancs (#FFA500) – komplementer szín
+    Fehér (#FFFFFF) – szöveg, blokkok, navigációs menü színe
+    Világos szürke (#F0F0F0) – blokkok, háttér
+
+
+
+    Komplementer szín:
+        A mély zöld komplementer színe a piros. Használhatsz élénk piros árnyalatokat (például #FF4500) kiemelésekhez, gombokhoz vagy figyelemfelkeltő elemekhez.
+
+    Szöveg színe:
+        Szövegekhez a fehér (#FFFFFF) vagy világos szürke (#CCCCCC) jól működhet, mert kontrasztos a mély zöld háttérrel, így könnyen olvasható lesz. Alternatívaként használhatsz világosabb zöld árnyalatokat is kisebb hangsúlyozásokhoz (például #90EE90).
+
+    Blokkok színe:
+        A fehér (#FFFFFF) blokkok szép kontrasztot adnak egy mély zöld szín mellett. Ezen kívül használhatsz világos szürke (#F0F0F0) blokkokat is, ha egy kicsit visszafogottabb megjelenést szeretnél.
+
+    Navigációs menü színe:
+        A navigációs menü esetén a fehér (#FFFFFF) vagy világos szürke (#D3D3D3) szöveg jól mutathat egy mély zöld háttéren. Ha fordítva szeretnéd (világos háttér, sötét szöveg), akkor egy világosabb zöld árnyalatú háttért (#E0FFF0) és mély zöld szöveget alkalmazhatsz.
+
+    Háttér szín:
+        A háttér színének lehet egy nagyon világos zöld árnyalatot választani (#F0FFF0) vagy egyszerű fehéret (#FFFFFF). Így a mély zöld kiemelkedik és nem terheli túl a látványt.
+
+    Gradients, színátmenet:
+        A színátmeneteket használhatod a hero szakaszban, gombokban, vagy akár a láblécben is. Például egy mély zöld (#013220) és egy világosabb zöld (#00FF7F) átmenet jól nézhet ki. Ugyanígy játszhatsz a piros és zöld kombinációval is átmenetekben, ha kontrasztosabb hatást szeretnél elérni.
+
+Egy példa színpaletta, amit használhatnál:
+
+    Mély zöld (#013220) – fő szín
+    Piros (#FF4500) – komplementer szín
+    Fehér (#FFFFFF) – szöveg, blokkok, navigációs menü színe
+    Világos szürke (#F0F0F0) – blokkok, háttér
+
+
