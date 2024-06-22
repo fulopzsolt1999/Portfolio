@@ -91,23 +91,82 @@ h2 {
 /* Style the hamburger menu */
 #navbar #hamburger {
    display: none;
+   width: 5rem;
+}
+#navbar #hamburger #check,
+#navbar #hamburger .checkbtn .fa-xmark {
+   display: none;
 }
 
-#navbar a.icon {
-   background: black;
+#navbar #hamburger .checkbtn i {
+   color: #dedede;
+   cursor: pointer;
+   font-size: 2.5rem;
+}
+
+#navbar #hamburger .nav-mobile {
+   display: none;
+}
+
+#navbar #hamburger #check:checked ~ .nav-mobile {
    display: block;
-   position: absolute;
-   right: 0;
-   top: 0;
 }
 
-@media (max-width: 768px) {
+#navbar #hamburger #check:checked ~ .checkbtn .fa-bars {
+   display: none;
+}
+
+#navbar #hamburger #check:checked ~ .checkbtn .fa-xmark {
+   display: block;
+}
+
+@media (max-width: 1400px) {
+   #navbar h2 {
+      font-size: 30px;
+   }
+}
+@media (max-width: 1200px) {
+   #navbar h2 {
+      font-size: 24px;
+   }
+}
+@media (max-width: 1000px) {
+   #navbar h2 {
+      font-size: 22px;
+   }
    #navbar #nav-menu-list {
       display: none;
    }
    #navbar #hamburger {
       display: block;
    }
+   #navbar #hamburger {
+      display: block;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+   #navbar #hamburger .nav-mobile {
+      background: #222831;
+      width: 100%;
+      position: absolute;
+      top: 4rem;
+      right: 0;
+      text-align: right;
+      padding: 1.5rem;
+      z-index: 1;
+   }
+   #navbar #hamburger .nav-mobile a {
+      color: #fff;
+      display: block;
+   }
+}
+@media (max-width: 500px) {
+   #navbar h2 {
+      font-size: 18px;
+   }
+}
+@media (max-width: 768px) {
 }
 
 /* ##### About Section Styles ##### */
