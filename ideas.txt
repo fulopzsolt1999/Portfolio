@@ -155,3 +155,34 @@ Egy példa színpaletta, amit használhatnál:
     Világos szürke (#F0F0F0) – blokkok, háttér
 
 
+
+h1 {
+   font-family: "Montserrat", sans-serif;
+   font-size: 48px;
+   line-height: 1.2;
+   color: #111111;
+}
+
+h2 {
+   font-family: "Montserrat", sans-serif;
+   font-size: 36px;
+   line-height: 1.2;
+   color: #111111;
+}
+
+/* Példá#nav-menu-list egy gomb */
+button {
+   font-family: "Roboto", sans-serif;
+   font-size: 16px;
+   padding: 10px 20px;
+   background-color: #007bff;
+   color: white;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+}
+button:hover {
+   background-color: #0056b3;
+}
+
+
