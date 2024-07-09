@@ -70,60 +70,21 @@
             <h1>Projects</h1>
             <div id="projects-container">
                <div class="column" id="mechwart">
-                  <h2>Mechwart</h2>
+                  <h2>Mechwart - Django</h2>
                   <div class="img"><img src="img/django.jpg" alt="" /></div>
                </div>
                <div class="column" id="ruander">
-                  <h2>Ruander</h2>
+                  <h2>Ruander - Frontend & Backend</h2>
                   <div class="img"><img src="img/frontend.jpg" alt="" id="ruander-imgs" /></div>
-                  <div class="button" onclick="prev()">⬅️</div>
-                  <div class="button" onclick="next()">➡️</div>
+                  <div class="button" id="left-button" onclick="prev()">&#10094;</div>
+                  <div class="button" id="right-button" onclick="next()">&#10095;</div>
                </div>
             </div>
          </section>
          <section id="contact-section"></section>
       </div>
 
-      <!-- 
-      <section id="project-section">
-         <div id="project-container">
-            <h1>Projects</h1>
-            <div class="project">
-               <div class="project-img"><img src="img/projects.jpg" /></div>
-               <div class="project-content">
-                  <h2>Project 1</h2>
-                  <p>Description of Project 1</p>
-               </div>
-            </div>
-            <div class="project">
-               <div class="project-img"><img src="img/projects.jpg" /></div>
-               <div class="project-content">
-                  <h2>Project 2</h2>
-                  <p>Description of Project 2</p>
-               </div>
-            </div>
-            <div class="project">
-               <div class="project-img"><img src="img/projects.jpg" /></div>
-               <div class="project-content">
-                  <h2>Project 3</h2>
-                  <p>Description of Project 3</p>
-               </div>
-            </div>
-            <div id="left-arrow" onclick="changeProject(-1)">
-               <span class="prev">&#10094;</span>
-            </div>
-            <div id="right-arrow" onclick="changeProject(1)">
-               <span class="next">&#10095;</span>
-            </div>
-            <div class="dots" id="dots">
-               <span class="dot" onclick="currentProject(1)"></span>
-               <span class="dot" onclick="currentProject(2)"></span>
-               <span class="dot" onclick="currentProject(3)"></span>
-            </div>
-         </div>
-      </section>
-
-      
+      <!--       
       <section id="contact-section">
          <h1>Contact me</h1>
          <p> Have you any question or feedback?</p>
