@@ -1,0 +1,27 @@
+.container-fluid {
+   display: flex;
+   height: 50rem;
+   margin: auto;
+}
+
+.fixed-column {
+   width: 50%;
+   height: 50rem;
+   background-color: #f4f4f4;
+   position: fixed;
+}
+
+.scrollable-column {
+   width: 50%;
+   height: 50rem;
+   margin-left: 50%;
+   flex-grow: 1;
+   overflow-y: auto;
+   background-color: #fff;
+}
+
+img {
+   width: 10rem;
+   border-radius: 50%; /* Makes the image circular */
+   object-fit: cover;
+}
