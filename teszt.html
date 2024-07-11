@@ -13,29 +13,46 @@
    </head>
    <body>
       <div class="container-fluid p-0">
-         <div class="fixed-column p-3">
-            <h2>Fixed Column</h2>
-            <img src="img/Fülöp-Zsolt_CV-photo.jpg" class="img-fluid" />
-            <h1>About Me</h1>
-            <p>
-               My passion for creating web applications has led me to explore the world of web
-               development.
-            </p>
-            <p>
-               I am currently learning junior frontend development and beside that I am also
-               learning software development and testing.
-            </p>
-            <p>
-               After I successfully complete the frontend training I will start a training called
-               webdevelopment where I will learn the backend development for website programming.
-            </p>
+         <div class="fixed-column">
+            <div id="fixed-content">
+               <div id="fixed-img">
+                  <img src="img/Fülöp-Zsolt_CV-photo.jpg" class="img-fluid" />
+               </div>
+               <div id="fixed-text">
+                  <h1 class="mb-1">Hi, I'm <span class="highlight">Zsolt Fülöp</span></h1>
+                  <h3 class="mb-4">Junior Frontend Developer</h3>
+                  <p>
+                     My passion for creating web applications has led me to explore the world of web
+                     development.
+                  </p>
+                  <p>Ide még kéne egy kevés szöveg!!!</p>
+               </div>
+               <!-- <p>
+                  I am currently learning junior frontend development and beside that I am also
+                  learning software development and testing.
+               </p>
+               <p>
+                  After I successfully complete the frontend training I will start a training called
+                  webdevelopment where I will learn the backend development for website programming.
+               </p> -->
+               <div id="fixed-buttons">
+                  <a
+                     href="CV/F_Zsolt_EN_CV.pdf"
+                     class="btn btn-dark highlight me-4"
+                     id="btn-cv"
+                     download="F_Zsolt_EN_CV.pdf">
+                     Download my CV
+                  </a>
+                  <a class="btn btn-dark highlight ms-3" id="btn-hire" href="#">Hire me</a>
+               </div>
+            </div>
          </div>
          <div class="scrollable-column p-3">
             <h2>Scrollable Column</h2>
             <div>About me</div>
             <div>About my studies</div>
             <div>About my skills</div>
-            <div>Contact me + social links, CVs</div>
+            <div>Contact me + social links</div>
          </div>
       </div>
       <script
