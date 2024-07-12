@@ -148,6 +148,14 @@ p {
    -webkit-box-shadow: 0px 0px 8px 6px rgba(65, 90, 119, 1);
    -moz-box-shadow: 0px 0px 8px 6px rgba(65, 90, 119, 1);
    box-shadow: 0px 0px 8px 6px rgba(65, 90, 119, 1);
+   transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-logo-container:hover {
+   transform: translateY(-5px);
+   -webkit-box-shadow: 0px 0px 16px 12px rgba(65, 90, 119, 1);
+   -moz-box-shadow: 0px 0px 16px 12px rgba(65, 90, 119, 1);
+   box-shadow: 0px 0px 16px 12px rgba(65, 90, 119, 1);
 }
 
 #skill-logos {
