@@ -171,6 +171,24 @@ p {
    margin-right: 1rem;
 }
 
+.form-control {
+   background-color: var(--primary-bg);
+   color: var(--primary-text);
+   border: var(--accent);
+   -webkit-box-shadow: inset 0px 0px 8px 1px rgba(65, 90, 119, 1);
+   -moz-box-shadow: inset 0px 0px 8px 1px rgba(65, 90, 119, 1);
+   box-shadow: inset 0px 0px 8px 1px rgba(65, 90, 119, 1);
+}
+
+.form-control:focus {
+   background-color: var(--primary-bg);
+   color: var(--primary-text);
+   border: var(--accent);
+   -webkit-box-shadow: inset 0px 0px 8px 1px rgba(65, 90, 119, 1);
+   -moz-box-shadow: inset 0px 0px 8px 1px rgba(65, 90, 119, 1);
+   box-shadow: inset 0px 0px 8px 1px rgba(65, 90, 119, 1);
+}
+
 /* ××××× Media queries ××××× */
 @media only screen and (max-width: 1400px) {
    .scrollable-content-blocks {
