@@ -126,6 +126,10 @@ p {
    padding: 0.5rem 0;
 }
 
+.scrollable-content-blocks ul {
+   list-style: none;
+}
+
 #primary-skills-container,
 #secondary-skills-container {
    margin: 2rem 0;
@@ -200,6 +204,10 @@ p {
 #github-bubble,
 #linkedin-bubble {
    width: fit-content;
+}
+
+span.blockspam {
+   display: none;
 }
 
 /* ××××× Media queries ××××× */
